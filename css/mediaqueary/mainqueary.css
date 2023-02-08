@@ -1,0 +1,155 @@
+@media (max-width: 720px){
+
+.first-container
+{
+    text-align: center; 
+    margin-top: 8rem;
+    height: auto;
+    width: 100%;
+}
+/*------------------------Font Animation-----------------*/
+.first-container h1 
+{
+    font-size: var(--wp-represent-font-size-large);
+}
+@keyframes animate
+{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 205px;
+    }
+}
+.first-container .first-all-content
+{
+    margin-top: 4rem;
+    display: flex;
+}
+.first-container .first-home-page
+{
+
+    width: 100%;
+}
+.first-container .second-home-page
+{
+    width: 100%;
+}
+
+}
+@media (max-width: 470px){
+/*------------------------Font Animation-----------------*/
+.first-container h1 
+{
+
+    font-size: var(--wp-represent-font-size-large);
+}
+@keyframes animate
+{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 204px;
+    }
+}
+.first-container .first-all-content
+{
+    margin-top: 4rem;
+    gap: 6rem;
+    display: flex;
+}
+.first-container .first-home-page
+{
+    
+    width: 100%;
+}
+.first-container .second-home-page
+{
+        width: 100%;
+}
+/*----First Home Page Content----*/
+.first-container .first-home-page
+{
+    font-size: var(--wp-represent-font-size-normal);
+    width: 500px;
+}
+.first-container .first-home-page i 
+{
+    font-size: 116px;
+}
+.first-container .first-home-page p 
+{
+    font-family: var(--font-style-third);
+    font-size: var(--wp-represent-font-size-small);
+}
+/*----Second Home Page Content----*/   
+.first-container .second-home-page
+{
+    width: 400px;
+    font-size: var(--wp-represent-font-size-miduim);
+}
+.first-container .second-home-page p 
+{
+    font-size: var(--wp-represent-font-size-small);
+}
+/*----BUTTON SWITCHER PAGE---*/
+.switch-tabs button 
+{
+    padding: 5px;
+}
+.switch-tabs .tabs_button
+{
+    border-radius: 1rem;
+    width: 40%;
+}    
+/*--FIRST CONTENT SWITCHER PAGE--*/
+.tabs_content .personal-info p
+{
+    font-size: var(--wp-represent-font-size-small);
+}
+/*--SECOND CONTENT SWITCHER PAGE--*/    
+.tabs_content .language .skill-learned h2
+{
+    font-size: var(--wp-represent-font-size-normal);
+}
+.tabs_content .language .skill-star h3 
+{
+    font-size: var(--wp-represent-font-size-small);
+}
+.tabs_content h4 
+{
+    font-size: var(--wp-represent-font-size-small);
+}
+/*--THIRD CONTENT SWITCHER PAGE--*/
+.tabs_content .third-content p 
+{
+    font-size: var(--wp-represent-font-size-normal);
+}
+}
+
+@media (max-width: 380px){
+main
+{
+    display: block;
+    text-align: center; 
+}
+.first-container
+{
+    padding-bottom: 3rem;
+}
+.second-container
+{
+    padding-bottom: 3rem;
+}
+header
+{
+    position: fixed;
+    bottom: 39rem;
+}
+
+}
